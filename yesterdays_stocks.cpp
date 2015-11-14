@@ -1,3 +1,10 @@
+//Programmer: Luke J. Hurst
+//Date: November, 2015
+//Purpose: This program finds the maximum profit to be made by buying and then
+//         selling one share of stock. The prices are known for the whole day
+//         and the buy must come before the sell.
+
+
 #include<iostream>
 #include<vector>
 #include<cassert>

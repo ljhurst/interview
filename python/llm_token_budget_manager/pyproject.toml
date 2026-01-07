@@ -1,0 +1,27 @@
+[project]
+name = "llm-token-budget-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Luke Hurst", email = "hurstlj@umich.edu" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+llm-token-budget-manager = "llm_token_budget_manager:main"
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.14.10",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]

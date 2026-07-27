@@ -1,6 +1,6 @@
 # No `main`
 
-<https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557>
+Source: <https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557>
 
 ## Step 1: Hello World
 

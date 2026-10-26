@@ -13,7 +13,7 @@ dependencies = []
 llm-token-budget-manager = "llm_token_budget_manager:main"
 
 [build-system]
-requires = ["uv_build>=0.8.4,<0.9.0"]
+requires = ["uv_build>=0.8.4,<0.14.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
